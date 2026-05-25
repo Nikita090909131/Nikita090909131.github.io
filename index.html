@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для тебя 🤍</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+        body {
+            background: linear-gradient(135deg, #fdfbf7 0%, #fff5f5 100%);
+            color: #4a3b32;
+            font-family: 'Cormorant Garamond', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 40px 25px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2em;
+            color: #b08d8d;
+            margin: 60px 0 20px 0;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #8c6b6b;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            color: #a37d7d;
+            margin-top: 40px;
+            margin-bottom: 20px;            font-weight: 400;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.35em;
+            color: #5c4a4a;
+            margin-bottom: 25px;
+            font-weight: 400;
+            text-align: justify;
+            text-align-last: center;
+        }
+
+        .intro-text {
+            font-size: 1.2em;
+            color: #999;
+            font-style: italic;
+            margin-bottom: 50px;
+        }
+
+        .highlight {
+            color: #a37d7d;
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(5px);
+            border-radius: 15px;
+            padding: 50px 30px;
+            margin: 50px 0;
+            box-shadow: 0 10px 40px rgba(216, 198, 198, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.9);
+        }
+
+        .image-container {
+            width: 100%;
+            margin: 40px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .quote {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8em;
+            font-style: italic;
+            color: #8c6b6b;
+            margin: 40px 0;
+            line-height: 1.6;
+        }
+
+        .list-item {
+            text-align: left;
+            margin: 20px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.25em;
+        }
+
+        .list-item:before {
+            content: "🤍";
+            position: absolute;
+            left: 0;
+            color: #d4a5a5;
+        }
+
+        .footer {
+            margin-top: 100px;
+            font-size: 1.2em;
+            color: #b0a0a0;
+            padding-bottom: 60px;
+            font-style: italic;
+        }
+
+        .heart {
+            color: #d4a5a5;
+            font-size: 2em;
+            margin: 40px 0;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .divider {
+            width: 100px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #d4a5a5, transparent);
+            margin: 50px auto;
+        }
+        .personal-note {
+            background: rgba(212, 165, 165, 0.1);
+            border-left: 3px solid #d4a5a5;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: left;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Вступление -->
+        <br><br>
+        <h1>Тебе</h1>
+        <p class="intro-text">Это письмо — всё, что я не могу сказать вслух</p>
+
+        <!-- Почему я это пишу -->
+        <h2>Почему я пишу это</h2>
+        <p>
+            Я долго думал, как сказать тебе всё то, что сейчас внутри меня. 
+            Слова застревают в горле, когда я смотрю на тебя. 
+            Эмоции переполняют, но я не могу найти им выход.
+        </p>
+        <p>
+            Я хочу плакать, но не могу. Хочу кричать о своих чувствах, 
+            но вместо этого просто молчу. И это мучает меня.
+        </p>
+        <p>
+            Поэтому я пишу. Потому что здесь, в этих строках, 
+            я могу быть честным. Здесь нет дрожи в голосе, 
+            нет страха сказать что-то не так. Только я и мои мысли о тебе.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- О том, что ты значишь -->
+        <h2>Что ты значишь для меня</h2>
+        <p>
+            Ты появилась в моей жизни и всё изменила. 
+            Не громко, не внезапно — тихо и незаметно, 
+            как рассвет, который приходит, когда ты ещё спишь.
+        </p>
+        
+        <div class="personal-note">
+            <p style="text-align: left; margin-bottom: 15px;">                <span class="highlight">Ты — тот человек,</span> с которым я могу быть собой. 
+                Не притворяться, не надевать маски, не бояться быть слабым.
+            </p>
+            <p style="text-align: left; margin-bottom: 15px;">
+                <span class="highlight">Ты — тот человек,</span> который заставляет меня улыбаться, 
+                даже когда внутри пустота.
+            </p>
+            <p style="text-align: left;">
+                <span class="highlight">Ты — тот человек,</span> к которому у меня особое отношение. 
+            </p>
+        </div>
+
+        <p>
+            Я не могу объяснить, почему именно ты. 
+            Может, это твоя улыбка. Может, то, как ты смеёшься. 
+            Может, то, как ты слушаешь. А может — просто то, 
+            что ты есть.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Что я чувствую -->
+        <h2>Что я чувствую</h2>
+        <p>
+            Иногда мне кажется, что мои чувства слишком большие. 
+            Они не помещаются внутри, они рвутся наружу, 
+            но я не знаю, как их выпустить.
+        </p>
+
+        <div class="card">
+            <h3>Когда я с тобой, я чувствую...</h3>
+            <div class="list-item">Тепло, которого мне так не хватало</div>
+            <div class="list-item">Спокойствие, как будто я дома</div>
+            <div class="list-item">Радость, которая идёт из самой глубины</div>
+            <div class="list-item">Благодарность за то, что ты есть</div>
+            <div class="list-item">Страх потерять это</div>
+            <div class="list-item">Счастье, которое невозможно описать</div>
+        </div>
+
+        <p>
+            Я привязался к тебе. Сильнее, чем мог себе представить. 
+            И это одновременно и самое прекрасное, 
+            и самое пугающее чувство в моей жизни.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Воспоминания -->
+        <h2>Я помню...</h2>
+        <p>            <!-- Здесь можешь вписать свои личные воспоминания -->
+            <em>Наше первое пересечение в тик токе, наши первые сообщения в телеграме, когла ты меня поддерживала когда мне было трудно, 
+            наши вечерние посиделки в звонке, то как мы играли в роблокс...</em>
+        </p>
+        <p>
+            <em>Меня греет одна мысль о тебе,
+однажды я спрошу у тебя "1 или 2" и если попадешь скажу то, что скрывал.</em>
+        </p>
+        <p>
+            <em>Однако, я не забуду, то как ты ко мне относилась,
+волновалась и т.д., спасибо.</em>
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Что я хочу сказать -->
+        <h2>Что я хочу, чтобы ты знала</h2>
+        <p>
+            Я хочу, чтобы ты знала: <span class="highlight">ты важна</span>. 
+            Не для кого-то вообще, а конкретно для меня. 
+            Твоё присутствие в моей жизни — это подарок, 
+            который я не заслужил, но бесконечно ценю.
+        </p>
+
+        <p>
+            Я хочу, чтобы ты знала: <span class="highlight">ты прекрасна</span>. 
+            Не только внешне (хотя и это тоже), 
+            а своей душой, своим сердцем, тем светом, 
+            который ты даришь миру.
+        </p>
+
+        <p>
+            Я хочу, чтобы ты знала: <span class="highlight">ты не одна</span>. 
+            Я рядом. Даже если я молчу. Даже если я не всегда 
+            могу подобрать слова. Я здесь.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Главная фраза -->
+        <div class="card">
+            <div class="image-container">
+                <!-- Вставь сюда свою картинку -->
+                <img src="love.png" alt="Для тебя">
+            </div>
+            
+            <div class="quote">
+                «Среди всех людей на свете,<br>
+                именно ты стала для меня<br>
+                <span class="highlight">самой родной</span>»
+            </div>            
+            <p style="font-size: 1.1em; color: #999; margin-top: 30px;">
+                🤍
+            </p>
+        </div>
+
+        <!-- Мои страхи -->
+        <h2>Чего я боюсь</h2>
+        <p>
+            Я боюсь, что эти слова ничего не изменят. 
+            Я боюсь, что ты не поймёшь, насколько ты важна для меня. 
+            Я боюсь, что однажды ты уйдёшь, и я останусь 
+            с этими невысказанными словами.
+        </p>
+        <p>
+            Но ещё больше я боюсь молчать. 
+            Боюсь, что никогда не скажу тебе главное. 
+            Поэтому я пишу. Поэтому я рискую.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Обещания -->
+        <h2>Я обещаю...</h2>
+        <div class="personal-note">
+            <div class="list-item">Быть рядом, когда тебе будет трудно</div>
+            <div class="list-item">Радоваться твоим победам, как своим</div>
+            <div class="list-item">Помнить, что для тебя важно</div>
+            <div class="list-item">Не принимать тебя как должное</div>
+            <div class="list-item">Говорить тебе о своих чувствах (хотя мне это и сложно)</div>
+            <div class="list-item">Ценить каждый момент с тобой</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Благодарность -->
+        <h2>Спасибо тебе</h2>
+        <p>
+            Спасибо за то, что ты есть. 
+            За твоё терпение, за твою доброту, за твою улыбку.
+        </p>
+        <p>
+            Спасибо за те моменты, когда ты заставляла меня смеяться, 
+            когда мне хотелось плакать.
+        </p>
+        <p>
+            Спасибо за то, что ты слушаешь. 
+            За то, что ты видишь меня настоящего.
+        </p>
+        <p>            Спасибо за то, что ты стала для меня 
+            <span class="highlight">самым родным человеком</span>.
+        </p>
+
+        <div class="divider"></div>
+
+        <!-- Последнее -->
+        <h2>И последнее...</h2>
+        <p>
+            Если ты читаешь это, значит, я всё-таки собрался 
+            с духом и показал тебе свои чувства. 
+            И теперь я сижу и жду, гадая, что ты думаешь.
+        </p>
+        <p>
+            Знай: всё, что здесь написано — чистая правда. 
+            Без прикрас, без преувеличений. 
+            Только я и мои чувства к тебе.
+        </p>
+        <p>
+            Я не знаю, что будет дальше. 
+            Но я знаю, что ты изменила мою жизнь. 
+            И за это я буду благодарен тебе всегда.
+        </p>
+
+        <div class="heart">🤍</div>
+        
+        <p style="font-style: italic; color: #999;">
+            С любовью и надеждой,<br>
+            <span style="color: #8c6b6b;">Твой Ники без волос(хахах ну типо я же ща лысый)</span>
+        </p>
+
+        <div class="footer">
+            Создано с бесконечной нежностью<br>
+            только для тебя
+        </div>
+
+    </div>
+
+</body>
+</html>
